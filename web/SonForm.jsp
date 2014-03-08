@@ -1,6 +1,6 @@
 <%-- 
-    Document   : KayitDialog
-    Created on : 02.Mar.2014, 19:46:04
+    Document   : SonForm
+    Created on : 08.Mar.2014, 19:48:33
     Author     : user
 --%>
 
@@ -13,7 +13,7 @@
     <style type="text/css">
         body
         { 
-            background: url(Yuzme_03.jpg) no-repeat center center fixed; 
+            background: url(Yuzme_05.jpg) no-repeat center center fixed; 
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -22,7 +22,6 @@
     </style>
 </head>
 <body>
-    
-    
+    <h1>You have been succesfully registered!</h1>
 </body>
 </html>

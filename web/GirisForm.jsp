@@ -22,7 +22,7 @@
     </style>
 </head>
 <body>   
-    <form method="POST" action="login_control.jsp">
+    <form method="POST" action="KayitDialog.jsp">
         <table style="margin: 0 auto;">
             <tr>
                 <td>E-mail : </td>
@@ -34,7 +34,10 @@
             </tr>
             <tr>
                 <td></td>
-                <td><input type="submit" value="Login" style="float:right;" /></td>
+                <td>
+            <input type="button" onclick="document.location.href='AnaForm.jsp'" value="Register" style="float:left;" />
+            <input type="submit" value="Login" style="float:right;" />
+            </td>
             </tr>
         </table>
     </form>
