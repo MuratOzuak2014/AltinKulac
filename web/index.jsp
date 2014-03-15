@@ -13,7 +13,7 @@
         <style type="text/css">
             body
             { 
-                background: url(Yuzme_01.jpg) no-repeat center center fixed; 
+                background: url(Image/Yuzme_01.jpg) no-repeat center center fixed; 
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
                 -o-background-size: cover;
@@ -21,7 +21,7 @@
              }
         </style>
     </head>
-    <body background="Yuzme_01.jpg" >
+    <body background="Image/Yuzme_01.jpg" >
 
     <body link="#FFFFFF" vlink="#808080" alink="#FF0000"> 
 
