@@ -16,9 +16,10 @@
         <%
         String kullaniciAd = request.getParameter("kullaniciAd");
         String kullaniciSoyad = request.getParameter("kullaniciSoyad");
-        String kullaniciAd = request.getParameter("kullaniciAd");
+        String dogumTarihi = request.getParameter("dogumTarihi");
         String email = request.getParameter("email");
         String sifre = request.getParameter("sifre1");
+        String cinsiyet = request.getParameter("cinsiyet");
         
         KullaniciDAO kullaniciDAO = new KullaniciDAO();
         KullaniciDAO.createKullanici(kullanici);

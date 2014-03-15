@@ -35,11 +35,11 @@ public class KullaniciDAO {
                 kullanici = new Kullanici();
                 kullanici.setKullaniciId(rs.getInt("kullanici_id"));
                 kullanici.setKullaniciAd(rs.getString("kullanici_ad"));
-                kullanici.setKullaniciSoyad(rs.getString("kullanici_soyad"));
-                kullanici.setCinsiyet(rs.getString("cinsiyet"));
+                kullanici.setKullaniciSoyad(rs.getString("kullanici_soyad"));                
                 kullanici.setDogumTarihi(new Date(rs.getDate("dogum_tarihi").getTime()));
                 kullanici.setEmail(rs.getString("email"));                
                 kullanici.setSifre(rs.getString("sifre"));
+                kullanici.setCinsiyet(rs.getString("cinsiyet"));
             }
         } catch (ClassNotFoundException ex) {
             throw new Exception(ex);
