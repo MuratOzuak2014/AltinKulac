@@ -40,10 +40,14 @@
         <script type="text/javascript">
 
             function sifreKontrol() {
-
+                if(document.getElementById("bday").value == ""){
+                    alert("Lütfen doğum tarihini girin!");
+                    return false;
+                }    
+            
                 var sifre1 = document.getElementById("sifre1").value;
                 var sifre2 = document.getElementById("sifre2").value;
-                
+                              
                 if(sifre1 != sifre2){
                     alert("Girilen şifreler biririnden farklı!");
                     return false;
@@ -69,7 +73,7 @@
                 </tr>
                 <tr>
                     <td>Birth date : </td>
-                    <td><input type="date" name="bday"></td>
+                    <td><input type="date" name="bday" id="bday"></td>
                 </tr>
                 <tr>
                     <td>E-mail : </td>
@@ -81,12 +85,12 @@
                 </tr>
                 <tr>
                     <td>Şifre tekrar : </td>
-                    <td><input type="password" name="sifre2" id="sifre2"/></td>
+                    <td><input type="password" name="sifre2" id="sifre2" /></td>
                 </tr>
                 <tr>
                     <td>Cinsiyet : </td>
                     <td>
-                        <select>
+                        <select name = "sex">                        
                             <option value="">Seçiniz</option>
                             <option value="E">Erkek</option>
                             <option value="B">Bayan</option>

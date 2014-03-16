@@ -70,7 +70,8 @@ public class KullaniciDAO {
             pstmt.setString(2, kullanici.getKullaniciSoyad());
             pstmt.setString(3, kullanici.getCinsiyet());            
             pstmt.setDate(4, dogumTarihi);
-            pstmt.setString(5, kullanici.getSifre());
+            pstmt.setString(5, kullanici.getEmail());
+            pstmt.setString(6, kullanici.getSifre());
             updateCount = pstmt.executeUpdate();
 
         } catch (ClassNotFoundException ex) {
